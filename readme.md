@@ -1,4 +1,5 @@
 The project directory structure consists of three main components: 00_provider, 01_network, and 02_server. Let's break down each section:
+<<<<<<< HEAD
  00_provider
 │   ├── env
 │   │   ├── main.tf
@@ -71,6 +72,21 @@ Utilize Google Cloud Storage to store static website content such as HTML, CSS, 
 Set up a bucket to store and serve the static assets.
 Virtual Machines Instances:
 
+=======
+
+
+Overview:
+This project aims to implement a scalable and highly available web hosting solution using cloud resources. The infrastructure will be hosted on Google Cloud Platform (GCP) and will include cloud storage for static content, two cloud instances with Nginx and Apache web servers, and a load balancer to distribute incoming traffic efficiently.
+
+Components:
+
+Cloud Storage for Static Content:
+
+Utilize Google Cloud Storage to store static website content such as HTML, CSS, JavaScript, and media files.
+Set up a bucket to store and serve the static assets.
+Virtual Machines Instances:
+
+>>>>>>> 9c908c7402713e1bb03d6d1732dc65e7c0d41ecb
 Deploy two virtual machine instances on GCP, each running a different web server:
 Instance 1: Nginx server
 Instance 2: Apache server
@@ -99,9 +115,13 @@ This section focuses on server configurations. The env directory includes Terraf
 Additional Files:
 clean.sh: A shell script, likely used for cleaning or resetting the project state.
 readme.md: A project-wide readme file that could contain general information, instructions, and an overview of the entire project.
+<<<<<<< HEAD
 
 The directory structure follows a modular approach, organizing Terraform configurations based on their functionality. Be mindful of the mentioned typos in the staticstorage and vminstance directories that should be corrected for accurate execution.
 
 
+=======
+>>>>>>> 9c908c7402713e1bb03d6d1732dc65e7c0d41ecb
 
+The directory structure follows a modular approach, organizing Terraform configurations based on their functionality. Be mindful of the mentioned typos in the staticstorage and vminstance directories that should be corrected for accurate execution.
 
